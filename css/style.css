@@ -7,24 +7,51 @@
     font-family: "OpenSans-Regular";
 }
 body{
-    background: var(--background-1);
+    background-color: #F6EDFF;
 }
 
-/* Elimina esto para comenzar. 👇*/
-.saludo{
+#Image-menu{
+    position: relative;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 100vi;
+}
+
+
+#imagen-fondo {
+    position: absolute;
+    width: 100%;
+    height: 100vi;
+    border-bottom-left-radius: 10vi;
+    border-bottom-right-radius: 10vi;
+    transition: opacity 0.5s ease; /* Cambia el tiempo y la función según lo necesites */
+}
+
+
+#menu-buttons{
+    margin-top: 2vi;
     justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 32vi 32vi 32vi;
 }
-.saludo h3{
-    color: var(--color-3);
-    margin-top: 15px;
+
+
+.boton{
+    margin-top: 102vi;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-inline: 5vi;
+    height: 10vi;
+    width: 25vi;
+    border-radius: 3vi;
+    border: none;
 }
-.saludo p{
-    margin-top: 10px;
-    width: 50%;
-    text-align: center;
+
+.Button-menu:hover{
+    background-color: #E0B6FF;
 }
-/*****************************☝️*/
+
+
+
+p{
+    margin-top: 300vi;
+}
